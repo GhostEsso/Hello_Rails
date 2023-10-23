@@ -1,0 +1,162 @@
+Started GET "/" for ::1 at 2023-10-23 16:58:19 +0000
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/3.1.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/3.1.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 382)
+Completed 200 OK in 57ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7455)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:12:15 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 322.8ms | Allocations: 84296)
+Completed 200 OK in 326ms (Views: 325.0ms | ActiveRecord: 0.0ms | Allocations: 85438)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:12:25 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3878)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 4944)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:12:37 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1818)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2872)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:13:24 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:14:14 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.5ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1843)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2899)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:14:27 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:15:28 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:15:34 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.5ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1825)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2876)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:15:44 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/" for ::1 at 2023-10-23 17:15:58 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1840)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2848)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:16:34 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:16:38 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:16:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:16:40 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:16:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:17:06 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:17:20 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:17:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:17:32 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1816)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2871)
+
+
+Started GET "/pages/hello" for ::1 at 2023-10-23 17:17:41 +0000
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-10-23 17:17:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-10-23 17:17:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-10-23 17:17:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-10-23 17:17:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-10-23 17:17:59 +0000
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1829)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2885)
+
+
